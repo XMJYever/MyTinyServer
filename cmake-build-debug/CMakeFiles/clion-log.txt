@@ -1,0 +1,4 @@
+/home/xmjyever/clion-2020.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xmjyever/CLionProjects/MyTinyServer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xmjyever/CLionProjects/MyTinyServer/cmake-build-debug
