@@ -3,4 +3,4 @@ project(MyTinyServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MyTinyServer main.cpp locker.h)
+add_executable(MyTinyServer main.cpp locker.h processpool.h processpool.cpp)

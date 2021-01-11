@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+processpool.o: processpool.cpp.o
+
+.PHONY : processpool.o
+
+# target to build an object file
+processpool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool.cpp.o
+.PHONY : processpool.cpp.o
+
+processpool.i: processpool.cpp.i
+
+.PHONY : processpool.i
+
+# target to preprocess a source file
+processpool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool.cpp.i
+.PHONY : processpool.cpp.i
+
+processpool.s: processpool.cpp.s
+
+.PHONY : processpool.s
+
+# target to generate assembly for a file
+processpool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool.cpp.s
+.PHONY : processpool.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... processpool.o"
+	@echo "... processpool.i"
+	@echo "... processpool.s"
 .PHONY : help
 
 

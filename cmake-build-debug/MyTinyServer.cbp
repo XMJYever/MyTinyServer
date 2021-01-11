@@ -90,6 +90,12 @@
 		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/main.cpp">
 			<Option target="MyTinyServer"/>
 		</Unit>
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool.cpp">
+			<Option target="MyTinyServer"/>
+		</Unit>
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool.h">
+			<Option target="MyTinyServer"/>
+		</Unit>
 		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
