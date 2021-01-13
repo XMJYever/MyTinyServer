@@ -3,4 +3,8 @@ project(MyTinyServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MyTinyServer main.cpp locker.h processpool.h processpool.cpp)
+aux_source_directory(. DIRSRCS)
+
+include_directories(./processpool)
+SET(PROCESS_SRC processpool/processpool_server.cpp)
+add_executable(MyTinyServer ${PROCESS_SRC})

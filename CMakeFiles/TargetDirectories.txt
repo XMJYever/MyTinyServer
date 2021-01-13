@@ -1,0 +1,3 @@
+/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/rebuild_cache.dir
+/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/edit_cache.dir
+/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/MyTinyServer.dir

@@ -87,13 +87,13 @@
 		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/locker.h">
 			<Option target="MyTinyServer"/>
 		</Unit>
-		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/main.cpp">
-			<Option target="MyTinyServer"/>
-		</Unit>
-		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool.cpp">
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpoll_server.cpp">
 			<Option target="MyTinyServer"/>
 		</Unit>
 		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool.h">
+			<Option target="MyTinyServer"/>
+		</Unit>
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool_server.h">
 			<Option target="MyTinyServer"/>
 		</Unit>
 		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/CMakeLists.txt">

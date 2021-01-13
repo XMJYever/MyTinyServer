@@ -71,7 +71,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/xmjyever/CLionProjects/MyTinyServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xmjyever/CLionProjects/MyTinyServer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xmjyever/CLionProjects/MyTinyServer
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/cmake-build-debug/CMakeFiles /home/xmjyever/CLionProjects/MyTinyServer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles /home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ MyTinyServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/build
 .PHONY : MyTinyServer/fast
 
-processpoll_server.o: processpoll_server.cpp.o
+processpool_server.o: processpool_server.cpp.o
 
-.PHONY : processpoll_server.o
+.PHONY : processpool_server.o
 
 # target to build an object file
-processpoll_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpoll_server.cpp.o
-.PHONY : processpoll_server.cpp.o
+processpool_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool_server.cpp.o
+.PHONY : processpool_server.cpp.o
 
-processpoll_server.i: processpoll_server.cpp.i
+processpool_server.i: processpool_server.cpp.i
 
-.PHONY : processpoll_server.i
+.PHONY : processpool_server.i
 
 # target to preprocess a source file
-processpoll_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpoll_server.cpp.i
-.PHONY : processpoll_server.cpp.i
+processpool_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool_server.cpp.i
+.PHONY : processpool_server.cpp.i
 
-processpoll_server.s: processpoll_server.cpp.s
+processpool_server.s: processpool_server.cpp.s
 
-.PHONY : processpoll_server.s
+.PHONY : processpool_server.s
 
 # target to generate assembly for a file
-processpoll_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpoll_server.cpp.s
-.PHONY : processpoll_server.cpp.s
+processpool_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool_server.cpp.s
+.PHONY : processpool_server.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyTinyServer"
-	@echo "... processpoll_server.o"
-	@echo "... processpoll_server.i"
-	@echo "... processpoll_server.s"
+	@echo "... processpool_server.o"
+	@echo "... processpool_server.i"
+	@echo "... processpool_server.s"
 .PHONY : help
 
 

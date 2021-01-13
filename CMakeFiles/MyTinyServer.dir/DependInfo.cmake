@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xmjyever/CLionProjects/MyTinyServer/processpoll_server.cpp" "/home/xmjyever/CLionProjects/MyTinyServer/cmake-build-debug/CMakeFiles/MyTinyServer.dir/processpoll_server.cpp.o"
+  "/home/xmjyever/CLionProjects/MyTinyServer/processpool_server.cpp" "/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/MyTinyServer.dir/processpool_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
