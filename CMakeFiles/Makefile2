@@ -94,12 +94,12 @@ clean: CMakeFiles/MyTinyServer.dir/clean
 CMakeFiles/MyTinyServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles --progress-num=1,2 "Built target MyTinyServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles --progress-num=1,2,3 "Built target MyTinyServer"
 .PHONY : CMakeFiles/MyTinyServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyTinyServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyTinyServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles 0
 .PHONY : CMakeFiles/MyTinyServer.dir/rule

@@ -43,7 +43,9 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/home/xmjyever/CLionProjects/MyTinyServer/./processpool"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/xmjyever/CLionProjects/MyTinyServer/Makefile&quot;  VERBOSE=1 MyTinyServer"/>
 					<CompileFile command="/usr/bin/make -f &quot;/home/xmjyever/CLionProjects/MyTinyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -57,7 +59,9 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/home/xmjyever/CLionProjects/MyTinyServer/./processpool"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/xmjyever/CLionProjects/MyTinyServer/Makefile&quot;  VERBOSE=1 MyTinyServer/fast"/>
 					<CompileFile command="/usr/bin/make -f &quot;/home/xmjyever/CLionProjects/MyTinyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -66,16 +70,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/locker.h">
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/http_conn.cpp">
 			<Option target="MyTinyServer"/>
 		</Unit>
-		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool.h">
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/http_conn.h">
 			<Option target="MyTinyServer"/>
 		</Unit>
-		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool_server.cpp">
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool/processpool.h">
 			<Option target="MyTinyServer"/>
 		</Unit>
-		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool_server.h">
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool/processpool_server.cpp">
+			<Option target="MyTinyServer"/>
+		</Unit>
+		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/processpool/processpool_server.h">
 			<Option target="MyTinyServer"/>
 		</Unit>
 		<Unit filename="/home/xmjyever/CLionProjects/MyTinyServer/CMakeLists.txt">

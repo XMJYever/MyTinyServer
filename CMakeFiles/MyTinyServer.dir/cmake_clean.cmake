@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyTinyServer.dir/processpool_server.cpp.o"
+  "CMakeFiles/MyTinyServer.dir/http_conn.cpp.o"
+  "CMakeFiles/MyTinyServer.dir/processpool/processpool_server.cpp.o"
   "MyTinyServer"
   "MyTinyServer.pdb"
 )

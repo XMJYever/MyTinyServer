@@ -143,32 +143,59 @@ MyTinyServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/build
 .PHONY : MyTinyServer/fast
 
-processpool_server.o: processpool_server.cpp.o
+http_conn.o: http_conn.cpp.o
 
-.PHONY : processpool_server.o
+.PHONY : http_conn.o
 
 # target to build an object file
-processpool_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool_server.cpp.o
-.PHONY : processpool_server.cpp.o
+http_conn.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/http_conn.cpp.o
+.PHONY : http_conn.cpp.o
 
-processpool_server.i: processpool_server.cpp.i
+http_conn.i: http_conn.cpp.i
 
-.PHONY : processpool_server.i
+.PHONY : http_conn.i
 
 # target to preprocess a source file
-processpool_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool_server.cpp.i
-.PHONY : processpool_server.cpp.i
+http_conn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/http_conn.cpp.i
+.PHONY : http_conn.cpp.i
 
-processpool_server.s: processpool_server.cpp.s
+http_conn.s: http_conn.cpp.s
 
-.PHONY : processpool_server.s
+.PHONY : http_conn.s
 
 # target to generate assembly for a file
-processpool_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool_server.cpp.s
-.PHONY : processpool_server.cpp.s
+http_conn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/http_conn.cpp.s
+.PHONY : http_conn.cpp.s
+
+processpool/processpool_server.o: processpool/processpool_server.cpp.o
+
+.PHONY : processpool/processpool_server.o
+
+# target to build an object file
+processpool/processpool_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool/processpool_server.cpp.o
+.PHONY : processpool/processpool_server.cpp.o
+
+processpool/processpool_server.i: processpool/processpool_server.cpp.i
+
+.PHONY : processpool/processpool_server.i
+
+# target to preprocess a source file
+processpool/processpool_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool/processpool_server.cpp.i
+.PHONY : processpool/processpool_server.cpp.i
+
+processpool/processpool_server.s: processpool/processpool_server.cpp.s
+
+.PHONY : processpool/processpool_server.s
+
+# target to generate assembly for a file
+processpool/processpool_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTinyServer.dir/build.make CMakeFiles/MyTinyServer.dir/processpool/processpool_server.cpp.s
+.PHONY : processpool/processpool_server.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyTinyServer"
-	@echo "... processpool_server.o"
-	@echo "... processpool_server.i"
-	@echo "... processpool_server.s"
+	@echo "... http_conn.o"
+	@echo "... http_conn.i"
+	@echo "... http_conn.s"
+	@echo "... processpool/processpool_server.o"
+	@echo "... processpool/processpool_server.i"
+	@echo "... processpool/processpool_server.s"
 .PHONY : help
 
 

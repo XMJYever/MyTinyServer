@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xmjyever/CLionProjects/MyTinyServer/processpool_server.cpp" "/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/MyTinyServer.dir/processpool_server.cpp.o"
+  "/home/xmjyever/CLionProjects/MyTinyServer/http_conn.cpp" "/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/MyTinyServer.dir/http_conn.cpp.o"
+  "/home/xmjyever/CLionProjects/MyTinyServer/processpool/processpool_server.cpp" "/home/xmjyever/CLionProjects/MyTinyServer/CMakeFiles/MyTinyServer.dir/processpool/processpool_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "./processpool"
   )
 
 # Targets to which this target links.
